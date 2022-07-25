@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+    color: #ffffff;
+}
+
+.header{
+    background-color: #E7F4F8;
+    height: 100vh;
+}
+
+.boxTitle{
+    text-align: center;
+    background-color: #FF4B21;
+    font-size: 2em;
+}
+
+.fontColor{
+    color: white;
+}

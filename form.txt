@@ -1,0 +1,4 @@
+la liste des sujets |  ok
+la page de création des sujets | ok
+de création d'un message 
+page du sujet | id titre description message
