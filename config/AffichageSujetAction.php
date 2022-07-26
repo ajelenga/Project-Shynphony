@@ -7,7 +7,7 @@
         $unSujetExist = $bdd->prepare('SELECT * FROM `sujets` WHERE sujets.id =?');
         $unSujetExist->execute(array($idSujet));
 
-        $lesMsg= $bdd->prepare('SELECT * FROM `messages` WHERE fk_id_sujet =?' );
+        $lesMsg= $bdd->prepare('SELECT * FROM `messages` WHERE fk_id_sujet =? ORDER BY `messages`.`id` DESC' );
         $lesMsg->execute(array($idSujet));
 
         if($unSujetExist->rowCount()>0){
