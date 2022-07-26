@@ -1,6 +1,7 @@
 body {
     text-align: center;
     color: #ffffff;
+    margin: 0 auto;
 }
 
 .header{
@@ -17,3 +18,20 @@ body {
 .fontColor{
     color: white;
 }
+
+.landing-page {
+    padding: 20px 50px;
+  }
+
+  .top-page {
+    background: url("/assets/img/image-congo-bg-f.png");
+    background-size: cover;
+    height: 85vh;
+    padding: 25px;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+  }
+  
