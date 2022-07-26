@@ -41,7 +41,7 @@
                                 <textarea class="form-control" id="exampleFormControlTextarea3" name="message" rows="3"></textarea>
                             </div>
                             <br>
-                            <button type="submit" class="btn btn-primary"  name="validate">Publier le message</button>
+                            <button type="submit" class="btn btn-primary" name="validate">Publier le message</button>
                         </form>
                     </div>
                     <?php while ($msg = $lesMsg->fetch()){

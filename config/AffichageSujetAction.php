@@ -33,6 +33,7 @@
            $insertMessage->execute(array($messages,$idSujet));
   
            $sucessMsg = "Votre message à bien été publier sur le site.";
+           header("Refresh:0");
         }else{
            $errorMsg = "Veuillez complétez le champs ";
         }
